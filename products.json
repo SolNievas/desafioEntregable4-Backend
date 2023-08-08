@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "title": "Coca Cola",
+    "description": "Exceso de calorías y sodio",
+    "code": "fsfd547",
+    "price": 850,
+    "stock": 15,
+    "category": "gaseosas",
+    "thumbnails": [
+      "https://carrefourar.vtexassets.com/arquivos/ids/275280-170-170?v=1777291805&width=170&height=170&aspect=true"
+    ],
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Sprite",
+    "description": "Exceso de azúcares",
+    "code": "gres5874",
+    "price": 514,
+    "status": true,
+    "stock": 25,
+    "category": "gaseosas",
+    "thumbnails": "https://carrefourar.vtexassets.com/arquivos/ids/275280-170-170?v=1777291805&width=170&height=170&aspect=true"
+  },
+  {
+    "id": 3,
+    "title": "Pepsi",
+    "description": "Exceso de azúcares",
+    "code": "dfw574",
+    "price": 514,
+    "status": true,
+    "stock": 25,
+    "category": "gaseosas",
+    "thumbnails": "https://carrefourar.vtexassets.com/arquivos/ids/191214-170-170?v=1777293821&width=170&height=170&aspect=true"
+  },
+  {
+    "id": 4,
+    "title": "Crush Lima Limón",
+    "description": "Exceso de azúcares",
+    "code": "efewf574",
+    "price": 227,
+    "status": true,
+    "stock": 23,
+    "category": "gaseosas",
+    "thumbnails": [
+      "https://mi3monline.com/Productos/Imagen?codigo=30679&ancho=150&alto=150"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Amstel cerveza lager",
+    "description": "x 473 c. lata",
+    "code": "ewfef5876",
+    "price": 361,
+    "status": true,
+    "stock": 45,
+    "category": "cervezas",
+    "thumbnails": [
+      "https://mi3monline.com/Productos/Imagen?codigo=36785&ancho=150&alto=150"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "danonino",
+    "description": "473ml sabor frutilla",
+    "code": "hsheu584",
+    "price": 320,
+    "status": true,
+    "stock": 25,
+    "category": "yougurts",
+    "thumbnails": [
+      "https://mi3monline.com/Productos/Imagen?codigo=3914&ancho=150&alto=150"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "chuepe",
+    "description": "1lt zero de pomelo",
+    "code": "dsd475",
+    "price": 780,
+    "stock": 25,
+    "category": "gaseosas",
+    "thumbnails": [
+      "https://carrefourar.vtexassets.com/arquivos/ids/343004-170-170?v=1777650569&width=170&height=170&aspect=true"
+    ]
+  }
+]

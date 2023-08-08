@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Productos en tiempo real</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+
+        socket.on('product_created', function (newProduct) {
+            var productElement = document.createElement('li');
+            productElement.textContent = newProduct.title;
+            productElement.id = 'product-' + newProduct.id;
+            document.getElementById('productList').appendChild(productElement);
+        });
+
+        socket.on('product_deleted', function (deletedProduct) {
+            var productElement = document.getElementById('product-' + deletedProduct.id);
+            if (productElement) {
+                productElement.remove();
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <ul id="productList">
+        {{#each products}}
+        <li id="product-{{this.id}}">{{this.title}}</li>
+        {{/each}}
+    </ul>
+</body>
+
+</html>
